@@ -47,7 +47,7 @@ public class MappingController {
   @GetMapping("/mapping/user/{userId}/orders/{orderId}")
   public String mappingPath(@PathVariable String userId, @PathVariable String orderId) {
     log.info("mappingPath userId={}, orderId={}", userId, orderId);
-    return "ok";
+    return "ok2";
   }
 
   //http://localhost:8080/mapping-param?mode=debug (O)
